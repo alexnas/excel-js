@@ -1,0 +1,22 @@
+Webpack (imports/exports)
+  Babel
+  SCSS
+  Eslint
+  2 Modes:
+    - Dev
+      DevServer, SourceMap, Eslint, Not minified JS & CSS
+    - Prod
+      Minified Code
+
+Git
+
+  Production
+    1.0.0
+    0 ----------
+  Development
+    1.0.2
+    1 ---------------
+
+
+PullRequest - запрос на совмещение веток == другие члены команды могут посмортеть, согласиться, 
+прокомментировать, предложить улучшение... затем ветки сливаются, а рабочая ветка удаляется 

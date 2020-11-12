@@ -13,6 +13,8 @@
     "require-jsdoc": "off",
     "object-curly-spacing": "off",
     "operator-linebreak": "off",
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "no-debugger": 0
+
   }
 }

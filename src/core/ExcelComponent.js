@@ -3,7 +3,7 @@ import { DomListener } from '@core/DomListener';
 export class ExcelComponent extends DomListener {
   constructor($root, options = {}) {
     super($root, options.listeners);
-    this.name = options.name || ''
+    this.name = options.name || '';
   }
 
   // Return component template
@@ -16,6 +16,6 @@ export class ExcelComponent extends DomListener {
   }
 
   destroy() {
-    this.removeDOMListeners()
+    this.removeDOMListeners();
   }
 }

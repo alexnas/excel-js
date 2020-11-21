@@ -13,8 +13,9 @@
     "require-jsdoc": "off",
     "object-curly-spacing": "off",
     "operator-linebreak": "off",
-    "indent": ["error", 2],
-    "no-debugger": 0
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-debugger": 0,
+    "space-before-function-paren":"off"
 
   }
 }

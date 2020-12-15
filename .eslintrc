@@ -25,7 +25,5 @@
     "jest/valid-expect": "error"
 
   },
-  {
-    "plugins": ["jest"]
-  }
+  "plugins": ["jest"]
 }

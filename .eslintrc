@@ -3,7 +3,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "extends": ["eslint:recommended", "google"],
   "rules": {
@@ -15,7 +16,16 @@
     "operator-linebreak": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "no-debugger": 0,
-    "space-before-function-paren":"off"
+    "space-before-function-paren":"off",
 
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+
+  },
+  {
+    "plugins": ["jest"]
   }
 }
